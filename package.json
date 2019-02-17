@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint:create": "eslint --init",
-    "lint": "eslint controller --fix"
+    "lint": "eslint . --ext .js controller",
+    "fix": "eslint --fix --ext .js controller"
   },
   "pre-commit": [
     "lint"

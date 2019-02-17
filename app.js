@@ -6,7 +6,7 @@ const app = new Koa()
 app.use(
   cors({
     origin: function() {
-      return 'ssss'
+      return 'sss'
     },
     exposeHeaders: ['WWW-Authenticate', 'Server-Authorization'],
     maxAge: 5,
