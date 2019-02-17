@@ -1,0 +1,29 @@
+{
+  "name": "qingshu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "start": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint:create": "eslint --init",
+    "lint": "eslint controller --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "eslintIgnore": [
+    "node_modules"
+  ],
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-route": "^3.2.0",
+    "koa2-cors": "^2.0.6",
+    "prettier": "1.15.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-prettier": "^3.4.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "tslint": "^5.12.1"
+  }
+}
