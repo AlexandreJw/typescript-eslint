@@ -10,6 +10,6 @@ class ControllerInit {
     app.use(_.get('/login', login.getCode))
   }
 }
-console.log('sss')
+console.log('ssss')
 
 module.exports = ControllerInit
